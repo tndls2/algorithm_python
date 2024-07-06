@@ -11,8 +11,8 @@ def cantor_set(start, length, blank_set):
     
     blank_set.update(range(mid_start, mid_end))  # 중간 문자열은 공백이 됨
     
-    cantor_set(start, split_length, blank_set)  # 첫번째 문자열
-    cantor_set(mid_end, split_length, blank_set)  # 마지막 문자열
+    cantor_set(start, split_length, blank_set)  # 첫번째 문자열에 대해 재귀
+    cantor_set(mid_end, split_length, blank_set)  # 마지막 문자열에 대해 재귀
 
 while True:
     try:
@@ -30,4 +30,5 @@ while True:
                 print("-", end="")
         print()  # 줄바꿈
     except EOFError:
+        # 더 이상 입력이 없으면 종료
         break
