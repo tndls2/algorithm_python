@@ -15,10 +15,13 @@ def dfs(row):
         
         # 백트래킹을 위해 퀸을 다시 제거
         cols[col] = diag_left[row - col] = diag_right[row + col] = False
+        
 n = int(input())
 answer = 0  # 경우의 수
 cols = [False] * n  # cols[i]: i번째 열에 Queen이 있는지 여부
-diag_left = [False] * (2 * n - 1)  # diag1[i]: 왼쪽 대각선에 Queen이 있는지 여부
-diag_right = [False] * (2 * n - 1)  # diag2[i]: 오른쪽 대각선에 Queen이 있는지 여부
+diag_left = [False] * (2 * n - 1)  # diag_left[i]: 왼쪽 대각선에 Queen이 있는지 여부
+diag_right = [False] * (2 * n - 1)  # diag_right[i]: 오른쪽 대각선에 Queen이 있는지 여부
+
 dfs(0) # 첫번째 열에 Queen을 놓음
+
 print(answer)
