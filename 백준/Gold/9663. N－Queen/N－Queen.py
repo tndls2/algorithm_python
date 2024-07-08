@@ -19,8 +19,8 @@ def dfs(row):
 n = int(input())
 answer = 0  # 경우의 수
 cols = [False] * n  # cols[i]: i번째 열에 Queen이 있는지 여부
-diag_left = [False] * (2 * n - 1)  # diag_left[i]: 왼쪽 대각선에 Queen이 있는지 여부
-diag_right = [False] * (2 * n - 1)  # diag_right[i]: 오른쪽 대각선에 Queen이 있는지 여부
+diag_left = [False] * (2 * n - 1)  # diag_left[i]: 왼쪽 대각선에 Queen이 있는지 여부 / 2n -1 = 2(n-1) + 1
+diag_right = [False] * (2 * n - 1)  # diag_right[i]: 오른쪽 대각선에 Queen이 있는지 여부 / 2n -1 = 2(n-1) + 1
 
 dfs(0) # 첫번째 열에 Queen을 놓음
 
