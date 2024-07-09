@@ -1,3 +1,4 @@
+## 다른 코드들 참고하여 해결함 ##
 def dfs(idx, count):
     # idx: 현재 방문할 사람 인덱스
     # count: 현재까지 스타트팀에 포함된(visited=True) 사람 수
