@@ -5,11 +5,12 @@ def w(a, b, c):
         return 1
     elif a > 20 or b > 20 or c > 20:
         return w(20, 20, 20)
-    
-    if dp[a][b][c]:  # dp에 저장되어 있으면 해당 값 리턴
+
+    # dp에 저장되어 있으면 해당 값 리턴
+    if dp[a][b][c]:
         return dp[a][b][c]
     
-    # dp에 저장되어 있지 않다면 저장하기
+    # dp에 저장되어 있지 않다면 재귀적으로 계산하여 해당 값 리턴
     if a < b and b < c:
         dp[a][b][c] = w(a, b, c - 1) + w(a, b - 1, c - 1) - w(a, b - 1, c)
     else:
@@ -21,4 +22,4 @@ while True:
     a, b, c = map(int, sys.stdin.readline().split())
     if a == -1 and b == -1 and c == -1:
         break
-    print(f'w({a}, {b}, {c}) = {w(a, b, c)}')
+    print(f'w({a}, {b}, {c}) = {w(a, b, c)}')  # f-string
