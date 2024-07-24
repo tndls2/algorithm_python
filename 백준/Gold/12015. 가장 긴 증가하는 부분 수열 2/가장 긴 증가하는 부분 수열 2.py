@@ -1,18 +1,23 @@
 ## 최장 증가 부분 수열(LIS, Longest Increasing Subsequence) 문제 
+## lower bound = 배열에서 특정 값 '이상'이 처음으로 나타나는 위치 찾기
+## upper bound = 배열에서 특정 값을 '초과'하는 값이 처음으로 나타나는 위치 찾기
 ## 방법론 참조 -> https://www.youtube.com/watch?v=voklbG1wU8A
+
 import sys
+
 def binary_search(target, start, end):
     global lis_ls
     
     while start < end:
         mid = (start + end) // 2
         if lis_ls[mid] < target:
-            # 중간값 초과인 경우 
+            # target이 중간 값 초과인 경우 
             start = mid + 1  # 다음 탐색이 중간값보다 큰 쪽
         else: 
-            # 중간값 이하인 경우
-            end = mid
+            # target이 중간값 이하인 경우
+            end = mid  # 일단 mid 저장 ( = 처음으로 target 이상의 값이 나타난 위치 저장 = lower boundary)
     return end
+    
 n = int(sys.stdin.readline().rstrip())
 sequence_ls = list(map(int, sys.stdin.readline().split()))  # 수열 A
 lis_ls = [sequence_ls[0]]
