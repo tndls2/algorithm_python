@@ -29,5 +29,7 @@ for element in sequence_ls:
         # 마지막 원소 이하 값인 경우 -> 교체 by.lower bound 방식
         i = binary_search(element, 0, len(lis_ls))  # 교체할 자리 찾기 - O(nlogn)
         lis_ls[i] = element
+        # 교체를 한다고 수열의 순서가 바뀌는 것이 아님
+        # 문제에서는 부분 수열의 길이를 요구하기 때문에 (1) 교체한 부분수열의 길이가 길어짐 -> lis_ls의 길이 길어짐 (2) 교체한 부분수열의 길이가 기존 부분수열보다 작거나 같음 -> lis_ls의 길이 유지
 result = len(lis_ls)
 print(result)
