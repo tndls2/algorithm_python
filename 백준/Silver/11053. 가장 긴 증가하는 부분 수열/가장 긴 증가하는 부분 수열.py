@@ -1,3 +1,5 @@
+## 최장 증가 부분 수열(LIS, Longest Increasing Subsequence) 문제 
+
 import sys
 n = int(input())
 sequence_ls = list(map(int, sys.stdin.readline().split()))
