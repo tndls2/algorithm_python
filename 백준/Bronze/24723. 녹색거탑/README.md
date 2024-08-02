@@ -16,7 +16,7 @@
 
 ### 문제 설명
 
-<p style="text-align: center;"><img alt="" src="" style="height: 71px; width: 300px;"></p>
+<p style="text-align: center;"><img alt="" src="https://github.com/user-attachments/assets/afb213ab-c523-40d0-b90f-553d796a9b9d" style="height: 71px; width: 300px;"></p>
 
 <blockquote>
 <p>Naver D2를 아시나요? D2는 For Developers, By Developers의 약자로, 개발자들을 위해 개발자들이 직접 만들어 가고 있는 네이버 개발자 지원 프로그램입니다. 네이버가 축적한 기술과 지식을 공유하고, 외부 개발자들을 지원해 대한민국 개발자 역량 강화를 이끌고, 이를 통해 업계 전체와 네이버가 함께 성장하는 선순환 구조를 만들고자 합니다.</p>
@@ -34,7 +34,7 @@
 
 <p>녹색거탑의 정상에서는 매년 <strong>NAVER</strong>가 개최하는 개발자 컨퍼런스<strong> DEVIEW</strong>가 열린다. 이 DEVIEW에 참여하면, 코딩에 깊은 깨달음을 얻어 코딩괴물이 될 수 있다고 전해진다. 그리고 코딩괴물은 녹색거탑의 정상에서 내려온다. 예전부터 전해 내려오는 <strong>D2</strong> 비전서에 의하면, 코딩괴물이 녹색거탑의 정상에서 내려오는 경우의 수를 파악한 사람은, 개발자 컨퍼런스<strong> </strong>DEVIEW에 참여할 수 있다 한다. 그리고 DEVIEW에 참여해 본인도 코딩괴물이 될 수 있다!</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 600px; height: 457px;"></p>
+<p style="text-align: center;"><img alt="" src="https://github.com/user-attachments/assets/ecdab316-c628-4611-96f8-5a13c4d5bd61" style="width: 600px; height: 457px;"></p>
 
 <p>녹색거탑은 위 그림과 같이 규칙적으로 쌓여있다.</p>
 
