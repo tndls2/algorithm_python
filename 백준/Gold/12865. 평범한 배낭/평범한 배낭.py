@@ -1,3 +1,4 @@
+# knapsack 문제
 n, k = map(int, input().split())  # n, k 입력
 weight_values = [tuple(map(int, input().split())) for _ in range(n)]  # weight, value 입력
 weight_ls = [weight for weight, value in weight_values]  # weight만 분리
