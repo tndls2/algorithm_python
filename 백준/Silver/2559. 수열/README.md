@@ -24,13 +24,13 @@
 
 <p>모든 연속적인 이틀간의 온도의 합은 아래와 같다.</p>
 
-<p style="text-align: center;"><img alt="" src="" style="width: 259px; height: 73px;"></p>
+<p style="text-align: center;"><img alt="" src="https://github.com/user-attachments/assets/b256d85a-9f50-4e5f-8250-df2c15c8d80f" style="width: 259px; height: 73px;"></p>
 
 <p>이때, 온도의 합이 가장 큰 값은 21이다. </p>
 
 <p>또 다른 예로 위와 같은 온도가 주어졌을 때, 모든 연속적인 5일 간의 온도의 합은 아래와 같으며, </p>
 
-<p style="text-align: center;"><img alt="" src="" style="height: 80px; width: 259px;"></p>
+<p style="text-align: center;"><img alt="" src="https://github.com/user-attachments/assets/4f2feb69-4d8e-4425-81b6-91b0bca6334d" style="height: 80px; width: 259px;"></p>
 
 <p>이때, 온도의 합이 가장 큰 값은 31이다.</p>
 
