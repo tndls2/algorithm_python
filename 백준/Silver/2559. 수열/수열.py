@@ -5,7 +5,7 @@ n, k = map(int, sys.stdin.readline().split())
 # 2 <= n <= 100,000
 temperature_ls = list(map(int, sys.stdin.readline().split()))
 accumulate_ls = [0] + list(itertools.accumulate(temperature_ls))  # temperature_ls에 대한 부분 누적합 저장
-k_day_sum_ls = []
+k_day_sum_ls = []  # 연속된 k일 동안의 온도 합 저장
 
 sum = 0
 for i in range(k, n+1):
