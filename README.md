@@ -6,3 +6,6 @@
   [![Solved.ac
 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=tndls3026)](https://solved.ac/tndls3026)
 
+  > **티어 순위**❓  
+  > Bronze  < Silver  < Gold < Platinum < Diamond < Ruby < Master  
+  > 5 < 4 < 3 < 2 < 1
