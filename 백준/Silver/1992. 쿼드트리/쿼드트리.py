@@ -1,3 +1,6 @@
+## 쿼드트리 문제
+## 쿼드트리(Quad Tree) : 자식 노드가 4개인 트리
+
 def compress_video(x, y, size):
     global answer
     
@@ -33,5 +36,6 @@ n = int(input())
 video_ls = [list(input().strip()) for _ in range(n)]
 answer = []
 
+# 비디오 압축
 compress_video(0, 0, n)
-print(''.join(answer))
+print(''.join(answer))  # 리스트의 요소들을 한 번에 문자열로 출력
