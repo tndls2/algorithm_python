@@ -1,6 +1,5 @@
 import sys
 from collections import deque
-sys.setrecursionlimit(150000)
 
 def bfs(graph, v, visited, order):
     queue = deque([v]) # 시작 노드를 큐에 넣음
