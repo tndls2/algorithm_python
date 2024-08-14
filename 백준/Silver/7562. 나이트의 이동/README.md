@@ -18,7 +18,7 @@
 
 <p>체스판 위에 한 나이트가 놓여져 있다. 나이트가 한 번에 이동할 수 있는 칸은 아래 그림에 나와있다. 나이트가 이동하려고 하는 칸이 주어진다. 나이트는 몇 번 움직이면 이 칸으로 이동할 수 있을까?</p>
 
-<p><img alt="" src="" style="height:172px; width:175px"></p>
+<p><img alt="" src="https://github.com/user-attachments/assets/eff76ffb-a61b-40d1-aee9-2fea1892f3bd" style="height:172px; width:175px"></p>
 
 ### 입력 
 
